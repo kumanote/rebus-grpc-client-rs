@@ -9,18 +9,18 @@ This is a GRPC client package of [rebuschain/rebus.core](https://github.com/rebu
 
 **proto files**
 
-- see [rebus.core/go.mod at v0.1.2](https://github.com/rebuschain/rebus.core/blob/v0.1.2/go.mod) for listing related
+- see [rebus.core/go.mod at v0.2.3](https://github.com/rebuschain/rebus.core/blob/v0.2.3/go.mod) for listing related
 packages versions.
-- and also [cosmos-sdk/go.mod at v0.45.5](https://github.com/cosmos/cosmos-sdk/blob/v0.45.5/go.mod)
+- and also [cosmos-sdk/go.mod at v0.45.9](https://github.com/cosmos/cosmos-sdk/blob/v0.45.9/go.mod)
 
 ---
 
-- [rebus.core/proto/rebus at v0.1.2](https://github.com/rebuschain/rebus.core/tree/v0.1.2/proto/rebus)
-- [cosmos-sdk/proto at v0.45.5](https://github.com/cosmos/cosmos-sdk/tree/v0.45.5/proto)
-- [ibc-go/proto at v3.1.0](https://github.com/cosmos/ibc-go/tree/v3.1.0/proto)
-- [tendermint/proto/tendermint at v0.34.19](https://github.com/tendermint/tendermint/tree/v0.34.19/proto/tendermint)
+- [rebus.core/proto/rebus at v0.2.3](https://github.com/rebuschain/rebus.core/tree/v0.2.3/proto/rebus)
+- [cosmos-sdk/proto at v0.45.9](https://github.com/cosmos/cosmos-sdk/tree/v0.45.9/proto)
+- [ibc-go/proto at v3.2.0](https://github.com/cosmos/ibc-go/tree/v3.2.0/proto)
+- [tendermint/proto/tendermint at v0.34.21](https://github.com/tendermint/tendermint/tree/v0.34.21/proto/tendermint)
 - [cosmos/cosmos-proto](https://github.com/cosmos/cosmos-proto/tree/main/proto/cosmos_proto)
-- [ics23/proofs.proto at v0.6.6](https://github.com/confio/ics23/blob/v0.6.6/proofs.proto)
+- [ics23/proofs.proto at v0.7.1](https://github.com/confio/ics23/blob/v0.7.1/proofs.proto)
 - [protobuf/gogo.proto at v1.3.3-alpha.regen.1](https://github.com/regen-network/protobuf/blob/v1.3.3-alpha.regen.1/gogoproto/gogo.proto)
 - [google/api](https://fuchsia.googlesource.com/third_party/googleapis)
 
@@ -28,7 +28,6 @@ packages versions.
 % find src/proto/cosmos -type f -follow -print | awk '{print "\""$0"\","}'
 % find src/proto/ibc -type f -follow -print | awk '{print "\""$0"\","}'
 % find src/proto/rebus -type f -follow -print | awk '{print "\""$0"\","}'
-% find src/proto/evmos -type f -follow -print | awk '{print "\""$0"\","}'
 ```
 
 ## Installation
@@ -44,7 +43,7 @@ packages versions.
 
 ```toml
 [dependencies]
-rebus-grpc-client = { version = "0.1.2", git = "https://github.com/kumanote/rebus-grpc-client-rs", branch = "main" }
+rebus-grpc-client = { version = "0.2.3", git = "https://github.com/kumanote/rebus-grpc-client-rs", branch = "main" }
 ```
 
 **rust files**

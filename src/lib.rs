@@ -238,14 +238,6 @@ pub mod ics23 {
     include!("prost/ics23.rs");
 }
 
-pub mod evmos {
-    pub mod erc20 {
-        pub mod v1 {
-            include!("prost/evmos.erc20.v1.rs");
-        }
-    }
-}
-
 pub mod rebus {
     pub mod claim {
         pub mod v1 {
