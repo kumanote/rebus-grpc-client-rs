@@ -136,10 +136,6 @@ fn main() {
                     "src/proto/rebus/claim/v1/query.proto",
                     "src/proto/rebus/claim/v1/genesis.proto",
                     "src/proto/rebus/claim/v1/params.proto",
-                    "src/proto/evmos/erc20/v1/tx.proto",
-                    "src/proto/evmos/erc20/v1/query.proto",
-                    "src/proto/evmos/erc20/v1/genesis.proto",
-                    "src/proto/evmos/erc20/v1/erc20.proto",
                 ],
                 &["src/proto/", "src/proto/confio/"],
             )
