@@ -238,6 +238,31 @@ pub mod ics23 {
     include!("prost/ics23.rs");
 }
 
+pub mod ethermint {
+    pub mod crypto {
+        pub mod v1 {
+            pub mod ethsecp256k1 {
+                include!("prost/ethermint.crypto.v1.ethsecp256k1.rs");
+            }
+        }
+    }
+    pub mod emv {
+        pub mod v1 {
+            include!("prost/ethermint.evm.v1.rs");
+        }
+    }
+    pub mod feemarket {
+        pub mod v1 {
+            include!("prost/ethermint.feemarket.v1.rs");
+        }
+    }
+    pub mod types {
+        pub mod v1 {
+            include!("prost/ethermint.types.v1.rs");
+        }
+    }
+}
+
 pub mod rebus {
     pub mod claim {
         pub mod v1 {

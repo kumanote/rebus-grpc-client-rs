@@ -16,6 +16,7 @@ packages versions.
 ---
 
 - [rebus.core/proto/rebus at v0.2.3](https://github.com/rebuschain/rebus.core/tree/v0.2.3/proto/rebus)
+- [ethermint/proto/ethermint at v0.17.2](https://github.com/evmos/ethermint/tree/v0.17.2/proto/ethermint)
 - [cosmos-sdk/proto at v0.45.9](https://github.com/cosmos/cosmos-sdk/tree/v0.45.9/proto)
 - [ibc-go/proto at v3.2.0](https://github.com/cosmos/ibc-go/tree/v3.2.0/proto)
 - [tendermint/proto/tendermint at v0.34.21](https://github.com/tendermint/tendermint/tree/v0.34.21/proto/tendermint)
@@ -28,6 +29,7 @@ packages versions.
 % find src/proto/cosmos -type f -follow -print | awk '{print "\""$0"\","}'
 % find src/proto/ibc -type f -follow -print | awk '{print "\""$0"\","}'
 % find src/proto/rebus -type f -follow -print | awk '{print "\""$0"\","}'
+% find src/proto/ethermint -type f -follow -print | awk '{print "\""$0"\","}'
 ```
 
 ## Installation
